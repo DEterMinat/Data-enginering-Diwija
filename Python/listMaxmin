@@ -1,0 +1,17 @@
+number = []
+odd = []
+even = []
+while True:
+    x = int(input("Number :"))
+    if x <0:
+        break
+    if x%2==0:
+        even.append(x)
+    if x%2==1:
+        odd.append(x)
+    number.append(x)
+    
+print("Max",max(number))
+print("Min",min(number))
+print("Odd",odd)
+print("Even",even)
